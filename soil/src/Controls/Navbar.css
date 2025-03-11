@@ -1,0 +1,142 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.navbar-container {
+  padding: 0 20px;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar {
+  background-color: #6ab04c;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {.navbar-container {
+    padding: 0 20px;
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+  }
+  
+  .navbar {
+    background-color: #6ab04c;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #54d57d;
+  }
+  
+  .dropdown-menu {
+    background-color: #6ab04c;
+  }
+  
+  .dropdown-item {
+    color: #ffffff !important;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #5a9c44;
+    color: #f0f0f0;
+  }
+  
+  .logo {
+    height: 30px;
+    margin-right: auto;
+  }
+  
+  /* Custom dropdown styling */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #6ab04c;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-item {
+    color: #ffffff !important;
+    padding: 10px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #5a9c44;
+    color: #f0f0f0;
+  }
+  
+  .navbar-nav .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+    content: "";
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+  }
+  
+  color: #54d57d;
+}
+
+.dropdown-menu {
+  background-color: #6ab04c;
+}
+
+.dropdown-item {
+  color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+  background-color: #5a9c44;
+  color: #f0f0f0;
+}
+
+.logo {
+  height: 30px;
+  margin-right: auto;
+}/* Custom dropdown styling */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #6ab04c;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-item {
+    color: #ffffff !important;
+    padding: 10px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #5a9c44;
+    color: #f0f0f0;
+  }
+  
+  .navbar-nav .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+    content: "";
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+  }

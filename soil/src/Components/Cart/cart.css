@@ -1,0 +1,98 @@
+.cart {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin-bottom to create space between the footer and the container */
+}
+
+.cart h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #54d57d;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.cart img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.cart div {
+    margin-bottom: 20px;
+}
+
+.cart h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cart p {
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: #fb0c5c;
+}
+
+.cart input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cart button {
+    padding: 10px 20px;
+    background-color: #54d57d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cart button:hover {
+    background-color: #3ca86f;
+}
+
+.text-danger {
+    color: #ff0000;
+}
+
+.text-success {
+    color: #008000; 
+}
+
+.cart .credit-card-info {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.cart .credit-card-info h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #54d57d; 
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #202020; 
+    color: #ffffff; 
+    padding: 20px; 
+    text-align: center; 
+    font-style: italic; 
+    width: 100%; 
+    font-weight: bold;
+    position: relative; 
+    bottom: 0;
+}
